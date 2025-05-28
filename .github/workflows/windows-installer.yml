@@ -29,4 +29,3 @@ jobs:
       with:
         name: QPM-installer.exe
         path: ./installer/QPM-installer.exe
-        # meow meow meow meow meow meow ~vee
