@@ -63,4 +63,3 @@ jobs:
         run: dotnet build --configuration Release --no-restore
       - name: Test
         run: dotnet test --no-restore --verbosity normal
-# adding a commented line so I can get the workflow rolling without needing to do much ~vee
