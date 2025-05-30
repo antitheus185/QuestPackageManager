@@ -37,7 +37,7 @@ jobs:
         working-directory: ./QPM
         run: dotnet publish -r ${{ matrix.runtime }} -c Release -p:PublishReadyToRun=true
       - name: Artifact Upload ${{ matrix.runtime }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: QPM-${{ matrix.runtime }}
           path: QPM/bin/Release/net5.0/${{ matrix.runtime }}/publish/
